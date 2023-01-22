@@ -44,23 +44,13 @@ img {
   width: 100%;
 }
 
-code,pre {
-  background: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-.hidden {
-  visibility: hidden;
-  height: 0;
-}
 
 /* Navbar */
 .navbar {
   background-color: var(--dark-color);
   color: #fff;
   height: 70px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #b4becb;
   transition: all 0.5s ease-in;
 }
 
@@ -108,10 +98,6 @@ code,pre {
   gap: 30px;
 }
 
-.showcase-text {
-  animation: slideInFromLeft 1s ease-in;
-}
-
 .showcase-form {
   position: relative;
   top: 60px;
@@ -120,7 +106,6 @@ code,pre {
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
-  animation: slideInFromRight 1s ease-in;
 }
 
 .showcase-form .form-control {
@@ -149,16 +134,12 @@ code,pre {
   right: 0;
   left: 0;
   background: #fff;
-  transform: skewY(-3deg);
-  -webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
+  transform: skewY(-5deg);
 }
 
 /* Stats */
 .stats {
   padding-top: 100px;
-  animation: slideInFromBottom 1s ease-in;
 }
 
 .stats-heading {
@@ -280,47 +261,6 @@ code,pre {
 
 .fa-twitter:hover {
   color: #1C9CEA;
-}
-
-/* Animations */
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInFromTop {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInFromBottom {
-  0% {
-    transform: translateY(100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
 }
 
 /* Tablets and under */
